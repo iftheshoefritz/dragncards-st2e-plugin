@@ -36,7 +36,7 @@ fs.readFile(filename, 'utf8', (err, data) => {
 
     for (let i = 1; i < lines.length; i++) {
         const columns = lines[i].split('\t');
-        const databaseId = columns[imageFileIndex];
+        const databaseId = columns[imageFileIndex].replace(/"/g, '');
         const name = columns[nameIndex];
         const imageUrl = `https://www.trekcc.org/2e/cardimages/${databaseId}.jpg`;
         const quoteLessImageUrl = imageUrl.replace(/"/g, '');
