@@ -56,7 +56,7 @@
                 ]
             ]
         ],
-        "loadedCrazyEightsDeck": [
+        "loadedDeepSpaceNineDeck": [
             ["SET", "/gameMode", "crazyEights"],
             ["SET_LAYOUT", "shared", "crazyEights"],
             ["LOG", "Dealing 5 cards to each player..."],
