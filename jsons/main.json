@@ -1,7 +1,7 @@
 {
-    "pluginName": "DragnCards Example Plugin",
+    "pluginName": "Star Trek CCG 2nd Edition",
     "tutorialUrl": "",
     "minPlayers": 1,
-    "maxPlayers": 4,
-    "backgroundUrl": "https://i.imgur.com/kUVm4Z5.jpeg"
+    "maxPlayers": 2,
+    "backgroundUrl": "https://apod.nasa.gov/apod/image/2405/NGC2169LRGBQHY183HR.jpg"
 }

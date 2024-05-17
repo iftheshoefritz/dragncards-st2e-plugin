@@ -63,14 +63,14 @@
         "points": {
             "English": "Points"
         },
-        "examplePhase3": {
-            "English": "Example Phase3"
+        "drawAndPlayPhase": {
+            "English": "Draw And Play"
         },
-        "examplePhase2": {
-            "English": "Example Phase2"
+        "executeOrdersPhase": {
+            "English": "Execute Orders"
         },
-        "examplePhase1": {
-            "English": "Example Phase1"
+        "discardExcessCardsPhase": {
+            "English": "Discard Excess Cards"
         },
         "discard": {
             "English": "Discard"

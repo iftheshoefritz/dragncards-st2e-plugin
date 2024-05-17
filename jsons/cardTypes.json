@@ -1,8 +1,11 @@
 {
     "cardTypes": {
-        "Ace":          {"width":  0.72, "height": 1.0, "tokens": ["testToken1", "testToken2"]},
-        "Number":       {"width":  0.72, "height": 1.0, "tokens": ["testToken1", "testToken2"]},
-        "Face":         {"width":  0.72, "height": 1.0, "tokens": ["testToken1", "testToken2"]},
-        "Joker":        {"width":  0.72, "height": 1.0, "tokens": ["testToken1", "testToken2"]}
+      "Mission":      {"width":  0.72, "height": 1.0, "tokens": ["testToken1", "testToken2"]},
+      "Personnel":    {"width":  0.72, "height": 1.0, "tokens": ["testToken1", "testToken2"]},
+      "Equipment":    {"width":  0.72, "height": 1.0, "tokens": ["testToken1", "testToken2"]},
+      "Dilemma":      {"width":  0.72, "height": 1.0, "tokens": ["testToken1", "testToken2"]},
+      "Ship":         {"width":  0.72, "height": 1.0, "tokens": ["testToken1", "testToken2"]},
+      "Event":        {"width":  0.72, "height": 1.0, "tokens": ["testToken1", "testToken2"]},
+      "Interrupt":    {"width":  0.72, "height": 1.0, "tokens": ["testToken1", "testToken2"]}
     }
 }
