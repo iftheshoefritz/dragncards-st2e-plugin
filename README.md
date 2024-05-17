@@ -12,6 +12,6 @@
 
 6. Click "Upload card database"
 
-7. Select the provided `tsv` file (see the `tsvs` directory).
+7. Select cards_with_processed_columns_dragn.tsv.
 
 8. Click "Create Plugin"
