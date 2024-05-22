@@ -3,21 +3,46 @@
         "deepSpaceNineDeck": {
             "label": "id:deepSpaceNineDeck",
             "cards": [
-                {
-                    "databaseId": "ST2E-EN06040",
-                    "quantity": 1, 
-                    "loadGroupId": "sharedMainDeck"
-                },
-                {
-                    "databaseId": "ST2E-EN06041",
-                    "quantity": 1,
-                    "loadGroupId": "sharedMainDeck"
-                },
-                {
-                    "databaseId": "ST2E-EN06050",
-                    "quantity": 1,
-                    "loadGroupId": "sharedMainDeck"
-                }
+              {
+                  "databaseId": "ST2E-EN06040",
+                  "quantity": 1,
+                  "loadGroupId": "playerNDeck"
+              },
+              {
+                  "databaseId": "ST2E-EN06041",
+                  "quantity": 1,
+                  "loadGroupId": "playerNDeck"
+              },
+              {
+                  "databaseId": "ST2E-EN06050",
+                  "quantity": 1,
+                  "loadGroupId": "playerNDeck"
+              },
+              {
+                "databaseId": "STVE-EN54018",
+                "quantity": 1,
+                "loadGroupId": "playerNMission1"
+              },
+              {
+                "databaseId": "STVE-EN39007",
+                "quantity": 1,
+                "loadGroupId": "playerNMission2"
+              },
+              {
+                "databaseId": "ST2E-EN29037",
+                "quantity": 1,
+                "loadGroupId": "playerNMission3"
+              },
+              {
+                "databaseId": "STVP-EN274",
+                "quantity": 1,
+                "loadGroupId": "playerNMission4"
+              },
+              {
+                "databaseId": "ST2E-EN07049",
+                "quantity": 1,
+                "loadGroupId": "playerNMission5"
+              }
             ],
             "postLoadActionList": "loadedDeepSpaceNineDeck"
         }

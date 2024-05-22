@@ -58,27 +58,15 @@
         ],
         "loadedDeepSpaceNineDeck": [
             ["SET", "/gameMode", "crazyEights"],
-            ["SET_LAYOUT", "shared", "crazyEights"],
-            ["LOG", "Dealing 5 cards to each player..."],
+            ["SET_LAYOUT", "shared", "onlyShowPlayer1"],
+            ["LOG", "Dealing 1 cards to each player..."],
             ["FOR_EACH_VAL", "$PLAYER_I", "$PLAYER_ORDER", [
-                ["LOG", "{{$PLAYER_I}} was dealt 5 cards."],
-                ["MOVE_STACKS", "sharedMainDeck", "{{$PLAYER_I}}Hand", 5]
+                ["LOG", "{{$PLAYER_I}} was dealt 1 cards."],
+                ["MOVE_STACKS", "{{$PLAYER_I}}Deck", "{{$PLAYER_I}}Hand", 1]
             ]],
             ["LOG", "Dealing 1 card to the discard pile..."],
-            ["MOVE_STACKS", "sharedMainDeck", "sharedMainDiscard", 1],
+            ["MOVE_STACKS", "player1Deck", "player1Discard", 1],
             ["LOG", "{{$PLAYER_ORDER.[0]}} goes first."]
-        ],
-        "loadedWarDeck": [
-            ["SET", "/gameMode", "war"],
-            ["SET_LAYOUT", "shared", "war"],
-            ["LOG", "Dividing the deck among the players"],
-            ["VAR", "$CURRENT_PLAYER", "{{$PLAYER_ORDER.[0]}}"],
-            ["WHILE", ["GREATER_THAN", ["LENGTH", "$GAME.groupById.sharedMainDeck.stackIds"], 0],
-                [
-                    ["MOVE_STACKS", "sharedMainDeck", "{{$CURRENT_PLAYER}}Deck", 1],
-                    ["UPDATE_VAR", "$CURRENT_PLAYER", ["NEXT_PLAYER", "$CURRENT_PLAYER"]]
-                ]
-            ]
         ]
     }
 }

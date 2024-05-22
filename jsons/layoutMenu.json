@@ -1,5 +1,9 @@
 {
     "layoutMenu": [
-        {"label": "id:crazyEights", "layoutId": "crazyEights", "numPlayers": 2}
+        {
+          "label": "id:st2e",
+          "layoutId": "onlyShowPlayer1",
+          "numPlayers": 2
+        }
     ]
 }

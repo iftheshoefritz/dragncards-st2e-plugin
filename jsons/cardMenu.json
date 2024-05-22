@@ -1,6 +1,6 @@
 {
     "cardMenu": {
-        "moveToGroupIds": ["sharedMainDeck"],
+        "moveToGroupIds": ["player1Hand"],
         "options": [
             {
                 "label": "id:toggleExhaust",

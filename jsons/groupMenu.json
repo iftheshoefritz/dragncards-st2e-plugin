@@ -1,6 +1,6 @@
 {
     "groupMenu": {
-        "moveToGroupIds": ["sharedMainDeck"],
+        "moveToGroupIds": ["player1Deck"],
         "options": [
         ]
     }
