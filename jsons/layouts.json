@@ -57,7 +57,8 @@
             "left": "20%",
             "top": "44%",
             "width": "8%",
-            "height": "16%"
+            "height": "16%",
+            "hideTitle": true
           },
           "playerNMission2": {
             "groupId": "playerNMission2",
@@ -66,7 +67,8 @@
             "left": "28%",
             "top": "44%",
             "width": "8%",
-            "height": "16%"
+            "height": "16%",
+            "hideTitle": true
           },
           "playerNMission3": {
             "groupId": "playerNMission3",
@@ -75,7 +77,8 @@
             "left": "36%",
             "top": "44%",
             "width": "8%",
-            "height": "16%"
+            "height": "16%",
+            "hideTitle": true
           },
           "playerNMission4": {
             "groupId": "playerNMission4",
@@ -84,7 +87,8 @@
             "left": "44%",
             "top": "44%",
             "width": "8%",
-            "height": "16%"
+            "height": "16%",
+            "hideTitle": true
           },
           "playerNMission5": {
             "groupId": "playerNMission5",
@@ -93,7 +97,8 @@
             "left": "52%",
             "top": "44%",
             "width": "8%",
-            "height": "16%"
+            "height": "16%",
+            "hideTitle": true
           }
         }
       }
