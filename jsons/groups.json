@@ -40,7 +40,7 @@
             }
         },
         "player1Mission1": {
-          "groupType": "inPlay",
+          "groupType": "mission",
           "label": "id:player1Mission1",
           "canHaveAttachments": true,
           "onCardEnter": {
@@ -52,11 +52,14 @@
           "label": "id:player1Mission1AT",
           "canHaveAttachments": false,
           "onCardEnter": {
-            "controller": "player1"
+            "controller": "player1",
+            "peeking": {
+              "player1": true
+            }
           }
         },
         "player1Mission2": {
-          "groupType": "inPlay",
+          "groupType": "mission",
           "label": "id:player1Mission2",
           "canHaveAttachments": true,
           "onCardEnter": {
@@ -68,11 +71,14 @@
           "label": "id:player1Mission2AT",
           "canHaveAttachments": false,
           "onCardEnter": {
-            "controller": "player1"
+            "controller": "player1",
+            "peeking": {
+              "player1": true
+            }
           }
         },
         "player1Mission3": {
-          "groupType": "inPlay",
+          "groupType": "mission",
           "label": "id:player1Mission3",
           "canHaveAttachments": true,
           "onCardEnter": {
@@ -84,11 +90,14 @@
           "label": "id:player1Mission3AT",
           "canHaveAttachments": false,
           "onCardEnter": {
-            "controller": "player1"
+            "controller": "player1",
+            "peeking": {
+              "player1": true
+            }
           }
         },
         "player1Mission4": {
-          "groupType": "inPlay",
+          "groupType": "mission",
           "label": "id:player1Mission4",
           "canHaveAttachments": true,
           "onCardEnter": {
@@ -100,11 +109,14 @@
           "label": "id:player1Mission4AT",
           "canHaveAttachments": false,
           "onCardEnter": {
-            "controller": "player1"
+            "controller": "player1",
+            "peeking": {
+              "player1": true
+            }
           }
         },
         "player1Mission5": {
-          "groupType": "inPlay",
+          "groupType": "mission",
           "label": "id:player1Mission5",
           "canHaveAttachments": true,
           "onCardEnter": {
@@ -116,7 +128,10 @@
           "label": "id:player1Mission5AT",
           "canHaveAttachments": false,
           "onCardEnter": {
-            "controller": "player1"
+            "controller": "player1",
+            "peeking": {
+              "player1": true
+            }
           }
         },
         "player1Dilemmas": {

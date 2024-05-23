@@ -31,13 +31,22 @@
             }
         },
         "inPlay": {
-            "canHaveAttachments": true,
-            "canHaveTokens": true,
-            "shuffleOnLoad": false,
-            "onCardEnter": {
-                "currentSide": "A",
-                "inPlay": true
-            }
+          "canHaveAttachments": true,
+          "canHaveTokens": true,
+          "shuffleOnLoad": false,
+          "onCardEnter": {
+            "currentSide": "B",
+            "inPlay": true
+          }
+        },
+        "mission": {
+          "canHaveAttachments": true,
+          "canHaveTokens": true,
+          "shuffleOnLoad": false,
+          "onCardEnter": {
+            "currentSide": "A",
+            "inPlay": true
+          }
         }
     }
 }
