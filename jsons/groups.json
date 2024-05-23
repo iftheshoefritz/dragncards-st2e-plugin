@@ -47,10 +47,26 @@
             "controller": "player1"
           }
         },
+        "player1Mission1AT": {
+          "groupType": "inPlay",
+          "label": "id:player1Mission1AT",
+          "canHaveAttachments": false,
+          "onCardEnter": {
+            "controller": "player1"
+          }
+        },
         "player1Mission2": {
           "groupType": "inPlay",
           "label": "id:player1Mission2",
           "canHaveAttachments": true,
+          "onCardEnter": {
+            "controller": "player1"
+          }
+        },
+        "player1Mission2AT": {
+          "groupType": "inPlay",
+          "label": "id:player1Mission2AT",
+          "canHaveAttachments": false,
           "onCardEnter": {
             "controller": "player1"
           }
@@ -63,6 +79,14 @@
             "controller": "player1"
           }
         },
+        "player1Mission3AT": {
+          "groupType": "inPlay",
+          "label": "id:player1Mission3AT",
+          "canHaveAttachments": false,
+          "onCardEnter": {
+            "controller": "player1"
+          }
+        },
         "player1Mission4": {
           "groupType": "inPlay",
           "label": "id:player1Mission4",
@@ -71,10 +95,26 @@
             "controller": "player1"
           }
         },
+        "player1Mission4AT": {
+          "groupType": "inPlay",
+          "label": "id:player1Mission4AT",
+          "canHaveAttachments": false,
+          "onCardEnter": {
+            "controller": "player1"
+          }
+        },
         "player1Mission5": {
           "groupType": "inPlay",
           "label": "id:player1Mission5",
           "canHaveAttachments": true,
+          "onCardEnter": {
+            "controller": "player1"
+          }
+        },
+        "player1Mission5AT": {
+          "groupType": "inPlay",
+          "label": "id:player1Mission5AT",
+          "canHaveAttachments": false,
           "onCardEnter": {
             "controller": "player1"
           }

@@ -150,6 +150,21 @@
       "player1Mission5": {
         "English": "Mission 5"
       },
+      "player1Mission1AT": {
+        "English": "Away Team"
+      },
+      "player1Mission2AT": {
+        "English": "Away Team"
+      },
+      "player1Mission3AT": {
+        "English": "Away Team"
+      },
+      "player1Mission4AT": {
+        "English": "Away Team"
+      },
+      "player1Mission5AT": {
+        "English": "Away Team"
+      },
       "player1Discard": {
         "English": "Player1 Discard"
       },
