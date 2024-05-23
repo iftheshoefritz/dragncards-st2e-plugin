@@ -50,6 +50,16 @@
             "height": "16%",
             "showMenu": true
           },
+          "playerNDilemmas": {
+            "groupId": "playerNDilemmas",
+            "type": "pile",
+            "direction": "horizontal",
+            "left": "68%",
+            "top": "80%",
+            "width": "8%",
+            "height": "16%",
+            "showMenu": true
+          },
           "playerNMission1": {
             "groupId": "playerNMission1",
             "type": "fan",

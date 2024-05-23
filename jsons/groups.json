@@ -12,7 +12,7 @@
         },
         "player1Deck": {
             "groupType": "deck",
-            "label": "id:player1Deck", 
+            "label": "id:player1Deck",
             "tableLabel": "id:deck",
             "onCardEnter": {
                 "controller": "player1",
@@ -75,6 +75,14 @@
           "groupType": "inPlay",
           "label": "id:player1Mission5",
           "canHaveAttachments": true,
+          "onCardEnter": {
+            "controller": "player1"
+          }
+        },
+        "player1Dilemmas": {
+          "groupType": "deck",
+          "label": "id:player1Dilemmas",
+          "tableLabel": "id:dilemmas",
           "onCardEnter": {
             "controller": "player1"
           }

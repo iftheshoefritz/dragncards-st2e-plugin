@@ -156,6 +156,9 @@
       "player1Deck": {
         "English": "Player1 Deck"
       },
+      "player1Dilemmas": {
+        "English": "Player1 Dilemmas"
+      },
       "hand": {
         "English": "Hand"
       },
@@ -170,6 +173,9 @@
       },
       "deck": {
         "English": "Deck"
+      },
+      "dilemmas": {
+        "English": "Dilemmas"
       },
       "sharedDeck": {
         "English": "Shared Deck"

@@ -2,7 +2,7 @@
     "deckMenu": {
         "subMenus": [
             {
-                "label": "Standard Decks",
+                "label": "Beginner Decks",
                 "deckLists": [
                     {"label": "id:deepSpaceNineDeck", "deckListId": "deepSpaceNineDeck"}
                 ]
