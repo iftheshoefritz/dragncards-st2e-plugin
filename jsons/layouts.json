@@ -22,12 +22,12 @@
             "groupId": "playerNHand",
             "type": "fan",
             "direction": "horizontal",
-            "left": "12%",
+            "left": "24%",
             "top": "80%",
-            "width": "50%",
+            "width": "38%",
             "height": "16%",
             "style": {
-              "background": "rgba(0, 0, 0, 0.3)"
+              "background": "rgba(0, 0, 0, 0.2)"
             },
             "showMenu": true
           },
