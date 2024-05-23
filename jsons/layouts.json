@@ -60,6 +60,16 @@
             "height": "16%",
             "showMenu": true
           },
+          "playerNDilemmasDiscard": {
+            "groupId": "playerNDilemmasDiscard",
+            "type": "pile",
+            "direction": "horizontal",
+            "left": "68%",
+            "top": "62%",
+            "width": "8%",
+            "height": "16%",
+            "showMenu": true
+          },
           "playerNMission1": {
             "groupId": "playerNMission1",
             "type": "fan",

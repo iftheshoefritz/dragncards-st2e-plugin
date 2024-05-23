@@ -84,7 +84,19 @@
           "label": "id:player1Dilemmas",
           "tableLabel": "id:dilemmas",
           "onCardEnter": {
-            "controller": "player1"
+            "controller": "player1",
+            "deckGroupId": "player1Dilemmas",
+            "discardGroupId": "player1DilemmasDiscard"
+          }
+        },
+        "player1DilemmasDiscard": {
+          "groupType": "discard",
+          "label": "id:player1DilemmasDiscard",
+          "tableLabel": "id:bottomDilemmas",
+          "onCardEnter": {
+            "controller": "player1",
+            "deckGroupId": "player1Dilemmas",
+            "discardGroupId": "player1DilemmasDiscard"
           }
         },
         "player2Hand": {
