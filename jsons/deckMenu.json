@@ -1,8 +1,8 @@
 {
     "deckMenu": {
         "subMenus": [
-            {   
-                "label": "Standard 52 Card Deck",
+            {
+                "label": "Standard Decks",
                 "deckLists": [
                     {"label": "id:deepSpaceNineDeck", "deckListId": "deepSpaceNineDeck"}
                 ]
