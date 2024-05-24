@@ -185,6 +185,38 @@
             }
           }
         },
+        "player1Mission5Ship1": {
+          "groupType": "shipSlot",
+          "label": "id:mission5Ship1",
+          "canHaveAttachments": true,
+          "onCardEnter": {
+            "controller": "player1"
+          }
+        },
+        "player1Mission5Ship2": {
+          "groupType": "shipSlot",
+          "label": "id:mission5Ship2",
+          "canHaveAttachments": true,
+          "onCardEnter": {
+            "controller": "player1"
+          }
+        },
+        "player1Mission5Ship3": {
+          "groupType": "shipSlot",
+          "label": "id:mission5Ship3",
+          "canHaveAttachments": true,
+          "onCardEnter": {
+            "controller": "player1"
+          }
+        },
+        "player1Mission5Ship4": {
+          "groupType": "shipSlot",
+          "label": "id:mission5Ship4",
+          "canHaveAttachments": true,
+          "onCardEnter": {
+            "controller": "player1"
+          }
+        },
         "player1Dilemmas": {
           "groupType": "deck",
           "label": "id:player1Dilemmas",

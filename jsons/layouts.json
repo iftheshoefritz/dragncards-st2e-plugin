@@ -24,7 +24,7 @@
             "direction": "horizontal",
             "left": "24%",
             "top": "90%",
-            "width": "38%",
+            "width": "30%",
             "height": "9%",
             "style": {
               "background": "rgba(0, 0, 0, 0.2)",
@@ -65,8 +65,8 @@
             "groupId": "playerNDilemmasDiscard",
             "type": "pile",
             "direction": "horizontal",
-            "left": "68%",
-            "top": "65%",
+            "left": "60%",
+            "top": "83%",
             "width": "8%",
             "height": "16%",
             "showMenu": true
@@ -235,6 +235,58 @@
             "width": "8%",
             "height": "16%",
             "hideTitle": true
+          },
+          "playerNMission5Ship1": {
+            "groupId": "playerNMission5Ship1",
+            "type": "row",
+            "direction": "horizontal",
+            "left": "65%",
+            "top": "60%",
+            "width": "8%",
+            "height": "9%",
+            "hideTitle": false,
+            "style": {
+              "overflow": "hidden"
+            }
+          },
+          "playerNMission5Ship2": {
+            "groupId": "playerNMission5Ship2",
+            "type": "row",
+            "direction": "horizontal",
+            "left": "73%",
+            "top": "60%",
+            "width": "8%",
+            "height": "9%",
+            "hideTitle": false,
+            "style": {
+              "overflow": "hidden"
+            }
+          },
+          "playerNMission5Ship3": {
+            "groupId": "playerNMission5Ship3",
+            "type": "row",
+            "direction": "horizontal",
+            "left": "65%",
+            "top": "70%",
+            "width": "8%",
+            "height": "9%",
+            "hideTitle": false,
+            "style": {
+              "overflow": "hidden"
+            }
+          },
+          "playerNMission5Ship4": {
+            "groupId": "playerNMission5Ship4",
+            "type": "row",
+            "direction": "horizontal",
+            "left": "73%",
+            "top": "70%",
+            "width": "8%",
+            "height": "9%",
+            "hideTitle": false,
+            "style": {
+              "overflow": "hidden"
+            }
           }
         }
       }

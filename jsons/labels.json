@@ -180,6 +180,18 @@
       "player1Mission5AT": {
         "English": "Away Team"
       },
+      "mission5Ship1": {
+        "English": "Mission 5 Ship 1"
+      },
+      "mission5Ship2": {
+        "English": "Mission 5 Ship 2"
+      },
+      "mission5Ship3": {
+        "English": "Mission 5 Ship 3"
+      },
+      "mission5Ship4": {
+        "English": "Mission 5 Ship 4"
+      },
       "player1Discard": {
         "English": "Player1 Discard"
       },
