@@ -146,9 +146,22 @@
             "direction": "horizontal",
             "left": "52%",
             "top": "50%",
-            "width": "8%",
+            "width": "5%",
             "height": "16%",
             "hideTitle": true
+          },
+          "playerNMission5CardsUnder": {
+            "groupId": "playerNMission5CardsUnder",
+            "type": "pile",
+            "direction": "horizontal",
+            "left": "59%",
+            "top": "42%",
+            "width": "1%",
+            "height": "16%",
+            "showMenu": false,
+            "style": {
+              "z-index": "2"
+            }
           },
           "playerNMission5": {
             "groupId": "playerNMission5",

@@ -123,9 +123,20 @@
             "controller": "player1"
           }
         },
+        "player1Mission5CardsUnder": {
+          "groupType": "inPlay",
+          "label": "id:player1Mission5CardsUnder",
+          "tableLabel": "id:player1Mission5CardsUnder",
+          "canHaveAttachments": false,
+          "onCardEnter": {
+            "controller": "player1",
+            "peeking": true
+          }
+        },
         "player1Mission5AT": {
           "groupType": "inPlay",
           "label": "id:player1Mission5AT",
+          "tableLabel": "id:player1Mission5AT",
           "canHaveAttachments": false,
           "onCardEnter": {
             "controller": "player1",
