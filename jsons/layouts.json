@@ -23,11 +23,12 @@
             "type": "fan",
             "direction": "horizontal",
             "left": "24%",
-            "top": "83%",
+            "top": "90%",
             "width": "38%",
-            "height": "16%",
+            "height": "9%",
             "style": {
-              "background": "rgba(0, 0, 0, 0.2)"
+              "background": "rgba(0, 0, 0, 0.2)",
+              "overflow": "hidden"
             },
             "showMenu": true
           },
