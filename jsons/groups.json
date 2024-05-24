@@ -47,6 +47,16 @@
             "controller": "player1"
           }
         },
+        "player1Mission1CardsUnder": {
+          "groupType": "inPlay",
+          "label": "id:player1Mission1CardsUnder",
+          "tableLabel": "id:player1Mission1CardsUnder",
+          "canHaveAttachments": false,
+          "onCardEnter": {
+            "controller": "player1",
+            "peeking": true
+          }
+        },
         "player1Mission1AT": {
           "groupType": "inPlay",
           "label": "id:player1Mission1AT",
@@ -64,6 +74,16 @@
           "canHaveAttachments": true,
           "onCardEnter": {
             "controller": "player1"
+          }
+        },
+        "player1Mission2CardsUnder": {
+          "groupType": "inPlay",
+          "label": "id:player1Mission2CardsUnder",
+          "tableLabel": "id:player1Mission2CardsUnder",
+          "canHaveAttachments": false,
+          "onCardEnter": {
+            "controller": "player1",
+            "peeking": true
           }
         },
         "player1Mission2AT": {
@@ -85,6 +105,16 @@
             "controller": "player1"
           }
         },
+        "player1Mission3CardsUnder": {
+          "groupType": "inPlay",
+          "label": "id:player1Mission3CardsUnder",
+          "tableLabel": "id:player1Mission3CardsUnder",
+          "canHaveAttachments": false,
+          "onCardEnter": {
+            "controller": "player1",
+            "peeking": true
+          }
+        },
         "player1Mission3AT": {
           "groupType": "inPlay",
           "label": "id:player1Mission3AT",
@@ -102,6 +132,16 @@
           "canHaveAttachments": true,
           "onCardEnter": {
             "controller": "player1"
+          }
+        },
+        "player1Mission4CardsUnder": {
+          "groupType": "inPlay",
+          "label": "id:player1Mission4CardsUnder",
+          "tableLabel": "id:player1Mission4CardsUnder",
+          "canHaveAttachments": false,
+          "onCardEnter": {
+            "controller": "player1",
+            "peeking": true
           }
         },
         "player1Mission4AT": {

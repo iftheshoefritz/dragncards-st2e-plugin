@@ -23,9 +23,9 @@
             "type": "fan",
             "direction": "horizontal",
             "left": "24%",
-            "top": "90%",
+            "top": "83%",
             "width": "38%",
-            "height": "10%",
+            "height": "16%",
             "style": {
               "background": "rgba(0, 0, 0, 0.2)"
             },
@@ -80,6 +80,19 @@
             "height": "16%",
             "hideTitle": true
           },
+          "playerNMission1CardsUnder": {
+            "groupId": "playerNMission1CardsUnder",
+            "type": "pile",
+            "direction": "horizontal",
+            "left": "11%",
+            "top": "42%",
+            "width": "1%",
+            "height": "16%",
+            "showMenu": false,
+            "style": {
+              "z-index": "2"
+            }
+          },
           "playerNMission1AT": {
             "groupId": "playerNMission1AT",
             "type": "pile",
@@ -99,6 +112,19 @@
             "width": "8%",
             "height": "16%",
             "hideTitle": true
+          },
+          "playerNMission2CardsUnder": {
+            "groupId": "playerNMission2CardsUnder",
+            "type": "pile",
+            "direction": "horizontal",
+            "left": "23%",
+            "top": "42%",
+            "width": "1%",
+            "height": "16%",
+            "showMenu": false,
+            "style": {
+              "z-index": "2"
+            }
           },
           "playerNMission2AT": {
             "groupId": "playerNMission2AT",
@@ -120,6 +146,19 @@
             "height": "16%",
             "hideTitle": true
           },
+          "playerNMission3CardsUnder": {
+            "groupId": "playerNMission3CardsUnder",
+            "type": "pile",
+            "direction": "horizontal",
+            "left": "35%",
+            "top": "42%",
+            "width": "1%",
+            "height": "16%",
+            "showMenu": false,
+            "style": {
+              "z-index": "2"
+            }
+          },
           "playerNMission3AT": {
             "groupId": "playerNMission3AT",
             "type": "pile",
@@ -140,6 +179,19 @@
             "height": "16%",
             "hideTitle": true
           },
+          "playerNMission4CardsUnder": {
+            "groupId": "playerNMission4CardsUnder",
+            "type": "pile",
+            "direction": "horizontal",
+            "left": "47%",
+            "top": "42%",
+            "width": "1%",
+            "height": "16%",
+            "showMenu": false,
+            "style": {
+              "z-index": "2"
+            }
+          },
           "playerNMission4AT": {
             "groupId": "playerNMission4AT",
             "type": "pile",
@@ -147,6 +199,16 @@
             "left": "52%",
             "top": "50%",
             "width": "5%",
+            "height": "16%",
+            "hideTitle": true
+          },
+          "playerNMission5": {
+            "groupId": "playerNMission5",
+            "type": "fan",
+            "direction": "horizontal",
+            "left": "60%",
+            "top": "44%",
+            "width": "8%",
             "height": "16%",
             "hideTitle": true
           },
@@ -162,16 +224,6 @@
             "style": {
               "z-index": "2"
             }
-          },
-          "playerNMission5": {
-            "groupId": "playerNMission5",
-            "type": "fan",
-            "direction": "horizontal",
-            "left": "60%",
-            "top": "44%",
-            "width": "8%",
-            "height": "16%",
-            "hideTitle": true
           },
           "playerNMission5AT": {
             "groupId": "playerNMission5AT",
