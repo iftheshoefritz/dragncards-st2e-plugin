@@ -236,53 +236,14 @@
             "height": "16%",
             "hideTitle": true
           },
-          "playerNMission5Ship1": {
+          "playerNMission5Ships": {
             "groupId": "playerNMission5Ship1",
-            "type": "row",
+            "type": "fan",
             "direction": "horizontal",
-            "left": "65%",
+            "left": "64%",
             "top": "60%",
-            "width": "8%",
-            "height": "9%",
-            "hideTitle": false,
-            "style": {
-              "overflow": "hidden"
-            }
-          },
-          "playerNMission5Ship2": {
-            "groupId": "playerNMission5Ship2",
-            "type": "row",
-            "direction": "horizontal",
-            "left": "73%",
-            "top": "60%",
-            "width": "8%",
-            "height": "9%",
-            "hideTitle": false,
-            "style": {
-              "overflow": "hidden"
-            }
-          },
-          "playerNMission5Ship3": {
-            "groupId": "playerNMission5Ship3",
-            "type": "row",
-            "direction": "horizontal",
-            "left": "65%",
-            "top": "70%",
-            "width": "8%",
-            "height": "9%",
-            "hideTitle": false,
-            "style": {
-              "overflow": "hidden"
-            }
-          },
-          "playerNMission5Ship4": {
-            "groupId": "playerNMission5Ship4",
-            "type": "row",
-            "direction": "horizontal",
-            "left": "73%",
-            "top": "70%",
-            "width": "8%",
-            "height": "9%",
+            "width": "16%",
+            "height": "16%",
             "hideTitle": false,
             "style": {
               "overflow": "hidden"
