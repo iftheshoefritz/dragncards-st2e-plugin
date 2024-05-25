@@ -180,17 +180,20 @@
       "player1Mission5AT": {
         "English": "Away Team"
       },
-      "mission5Ship1": {
-        "English": "Mission 5 Ship 1"
+      "mission1Ships": {
+        "English": "Mission 1 Ships"
       },
-      "mission5Ship2": {
-        "English": "Mission 5 Ship 2"
+      "mission2Ships": {
+        "English": "Mission 2 Ships"
       },
-      "mission5Ship3": {
-        "English": "Mission 5 Ship 3"
+      "mission3Ships": {
+        "English": "Mission 3 Ships"
       },
-      "mission5Ship4": {
-        "English": "Mission 5 Ship 4"
+      "mission4Ships": {
+        "English": "Mission 4 Ships"
+      },
+      "mission5Ships": {
+        "English": "Mission 5 Ships"
       },
       "player1Discard": {
         "English": "Player1 Discard"

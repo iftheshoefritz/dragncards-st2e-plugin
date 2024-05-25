@@ -185,33 +185,41 @@
             }
           }
         },
-        "player1Mission5Ship1": {
+        "player1Mission1Ships": {
           "groupType": "shipSlot",
-          "label": "id:mission5Ship1",
+          "label": "id:mission1Ships",
           "canHaveAttachments": true,
           "onCardEnter": {
             "controller": "player1"
           }
         },
-        "player1Mission5Ship2": {
+        "player1Mission2Ships": {
           "groupType": "shipSlot",
-          "label": "id:mission5Ship2",
+          "label": "id:mission2Ships",
           "canHaveAttachments": true,
           "onCardEnter": {
             "controller": "player1"
           }
         },
-        "player1Mission5Ship3": {
+        "player1Mission3Ships": {
           "groupType": "shipSlot",
-          "label": "id:mission5Ship3",
+          "label": "id:mission3Ships",
           "canHaveAttachments": true,
           "onCardEnter": {
             "controller": "player1"
           }
         },
-        "player1Mission5Ship4": {
+        "player1Mission4Ships": {
           "groupType": "shipSlot",
-          "label": "id:mission5Ship4",
+          "label": "id:mission4Ships",
+          "canHaveAttachments": true,
+          "onCardEnter": {
+            "controller": "player1"
+          }
+        },
+        "player1Mission5Ships": {
+          "groupType": "shipSlot",
+          "label": "id:mission5Ships",
           "canHaveAttachments": true,
           "onCardEnter": {
             "controller": "player1"

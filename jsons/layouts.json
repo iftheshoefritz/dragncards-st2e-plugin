@@ -45,8 +45,8 @@
             "groupId": "playerNDiscard",
             "type": "pile",
             "direction": "horizontal",
-            "left": "4%",
-            "top": "65%",
+            "left": "12%",
+            "top": "83%",
             "width": "8%",
             "height": "16%",
             "showMenu": true
@@ -104,6 +104,19 @@
             "height": "16%",
             "hideTitle": true
           },
+          "playerNMission1Ships": {
+            "groupId": "playerNMission1Ships",
+            "type": "fan",
+            "direction": "horizontal",
+            "left": "4%",
+            "top": "60%",
+            "width": "16%",
+            "height": "16%",
+            "hideTitle": false,
+            "style": {
+              "overflow": "hidden"
+            }
+          },
           "playerNMission2": {
             "groupId": "playerNMission2",
             "type": "fan",
@@ -136,6 +149,19 @@
             "width": "8%",
             "height": "16%",
             "hideTitle": true
+          },
+          "playerNMission2Ships": {
+            "groupId": "playerNMission2Ships",
+            "type": "fan",
+            "direction": "horizontal",
+            "left": "19%",
+            "top": "60%",
+            "width": "16%",
+            "height": "16%",
+            "hideTitle": false,
+            "style": {
+              "overflow": "hidden"
+            }
           },
           "playerNMission3": {
             "groupId": "playerNMission3",
@@ -170,6 +196,19 @@
             "height": "16%",
             "hideTitle": true
           },
+          "playerNMission3Ships": {
+            "groupId": "playerNMission3Ships",
+            "type": "fan",
+            "direction": "horizontal",
+            "left": "34%",
+            "top": "60%",
+            "width": "16%",
+            "height": "16%",
+            "hideTitle": false,
+            "style": {
+              "overflow": "hidden"
+            }
+          },
           "playerNMission4": {
             "groupId": "playerNMission4",
             "type": "fan",
@@ -202,6 +241,19 @@
             "width": "5%",
             "height": "16%",
             "hideTitle": true
+          },
+          "playerNMission4Ships": {
+            "groupId": "playerNMission4Ships",
+            "type": "fan",
+            "direction": "horizontal",
+            "left": "49%",
+            "top": "60%",
+            "width": "16%",
+            "height": "16%",
+            "hideTitle": false,
+            "style": {
+              "overflow": "hidden"
+            }
           },
           "playerNMission5": {
             "groupId": "playerNMission5",
@@ -237,7 +289,7 @@
             "hideTitle": true
           },
           "playerNMission5Ships": {
-            "groupId": "playerNMission5Ship1",
+            "groupId": "playerNMission5Ships",
             "type": "fan",
             "direction": "horizontal",
             "left": "64%",
