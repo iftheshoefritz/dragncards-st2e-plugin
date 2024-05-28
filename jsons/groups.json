@@ -246,14 +246,14 @@
           }
         },
         "player2Hand": {
-            "groupType": "hand",
-            "label": "id:player2Hand",
-            "tableLabel": "id:hand",
-            "onCardEnter": {
-                "controller": "player2",
-                "deckGroupId": "player2Deck",
-                "discardGroupId": "player2Discard"
-            }
+          "groupType": "hand",
+          "label": "id:player2Hand",
+          "tableLabel": "id:hand",
+          "onCardEnter": {
+            "controller": "player2",
+            "deckGroupId": "player2Deck",
+            "discardGroupId": "player2Discard"
+          }
         },
         "player2Deck": {
             "groupType": "deck",
