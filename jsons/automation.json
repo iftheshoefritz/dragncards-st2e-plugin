@@ -22,11 +22,6 @@
               "NOT_EQUAL",
               "$TARGET.parentCardId",
               "$TARGET.id"
-            ],
-            [
-              "EQUAL",
-              "ship",
-              "$TARGET.currentFace.type"
             ]
           ]
         ],
@@ -80,7 +75,7 @@
             "$TARGET.id",
             "$TARGET.parentCard.id",
             -1
-          ],
+          ]
         ]
       }
     ]
