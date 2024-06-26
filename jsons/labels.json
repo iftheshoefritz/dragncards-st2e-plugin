@@ -252,6 +252,9 @@
       "name": {
         "English": "Name"
       },
+      "crew1": {
+        "English": "Crew 1"
+      },
       "labelMarkAsIncomplete": {
         "English": "Mark As Incomplete"
       },
@@ -278,6 +281,15 @@
       },
       "st2e": {
         "English": "STCCG 2nd Edition"
+      },
+      "showCrew": {
+        "English": "Show Crew"
+      },
+      "player1ShipCrew1": {
+        "English": "Ship Crew 1"
+      },
+      "crew": {
+        "English": "Crew"
       }
     }
   }

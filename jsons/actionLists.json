@@ -1,6 +1,10 @@
 {
     "actionLists": {
-        "toggleExhaust": [
+      "showAttached": [
+        ["LOG", "{{$ALIAS_N}} wants to look at cards under {{$ACTIVE_FACE.name}}."],
+        ["LOOK_AT", "$PLAYER_N", "$ACTIVE_CARD.id", -1, true]
+      ],
+      "toggleExhaust": [
             ["COND",
                 ["AND", ["EQUAL", "$ACTIVE_CARD.rotation", 90], "$ACTIVE_CARD.inPlay"],
                 [
@@ -21,7 +25,7 @@
                 ["EQUAL", "$ACTIVE_CARD.currentSide", "A"],
                 [
                     ["LOG", "{{$ALIAS_N}} flipped {{$ACTIVE_FACE.name}} facedown."],
-                    ["SET", "/cardById/$ACTIVE_CARD_ID/currentSide", "B"]    
+                    ["SET", "/cardById/$ACTIVE_CARD_ID/currentSide", "B"]
                 ],
                 true,
                 [

@@ -2,7 +2,7 @@
     "groups": {
         "player1Hand": {
             "groupType": "hand",
-            "label": "id:player1Hand", 
+            "label": "id:player1Hand",
             "tableLabel": "id:hand",
             "onCardEnter": {
                 "controller": "player1",
@@ -245,6 +245,9 @@
             "discardGroupId": "player1DilemmasDiscard"
           }
         },
+        "shipTemplate": {
+          "label": "id:crew"
+        },
         "player2Hand": {
           "groupType": "hand",
           "label": "id:player2Hand",
@@ -257,7 +260,7 @@
         },
         "player2Deck": {
             "groupType": "deck",
-            "label": "id:player2Deck", 
+            "label": "id:player2Deck",
             "tableLabel": "id:deck",
             "onCardEnter": {
                 "controller": "player2",
@@ -267,21 +270,12 @@
         },
         "player2Discard": {
             "groupType": "discard",
-            "label": "id:player2Discard", 
+            "label": "id:player2Discard",
             "tableLabel": "id:discard",
             "onCardEnter": {
                 "controller": "player2",
                 "deckGroupId": "player2Deck",
                 "discardGroupId": "player2Discard"
-            }
-        },
-        "player2PlayArea": {
-            "groupType": "inPlay",
-            "label": "id:player2PlayArea",
-            "tableLabel": "id:player2PlayArea",
-            "canHaveAttachments": true,
-            "onCardEnter": {
-                "controller": "player2"
             }
         }
     }
